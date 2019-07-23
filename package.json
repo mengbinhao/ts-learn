@@ -1,0 +1,20 @@
+{
+  "name": "ts-learn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengbinhao/ts-learn.git"
+  },
+  "keywords": [],
+  "author": "jack meng <mengbinhao2018@gmail.com> (https://github.com/mengbinhao)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengbinhao/ts-learn/issues"
+  },
+  "homepage": "https://github.com/mengbinhao/ts-learn#readme"
+}
