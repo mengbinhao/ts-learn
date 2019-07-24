@@ -1,1 +1,1 @@
-var hello = 'hello typescript';
+var hello = 'hello typescript'
