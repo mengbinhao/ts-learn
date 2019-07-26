@@ -6,7 +6,7 @@ enum Role {
   Owner,
   Guest
 }
-//console.log(Role.Reporter)
+console.log(Role.Reporter)
 
 //字符串枚举
 enum Message {
@@ -19,7 +19,7 @@ enum Answer {
   N,
   Y = 'Yes'
 }
-//console.log(Answer.N)
+console.log(Answer.N)
 
 // 枚举成员
 // Role.Reporter = 0
@@ -61,17 +61,17 @@ enum G {
 let e: E = 3
 let f: F = 3
 //console.log(e === f)
-// console.log(e)
-// console.log(E)
+console.log(e)
+console.log(E)
 
 let e1: E.a = 3
 let e2: E.b = 3
 let e3: E.a = 3
 //console.log(e1 === e2)
-//console.log(e1 === e3)
-//console.log(e1)
+console.log(e1 === e3)
+console.log(e1)
 
 let g1: G = G.a
 let g2: G.a = G.a
-// console.log(g1)
-// console.log(g2)
+console.log(g1)
+console.log(g2)

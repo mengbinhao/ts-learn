@@ -26,7 +26,7 @@ function add6(x: number, y = 0, z: number, q = 1) {
   return x + y + z + q
 }
 //必须显示给undefined
-//console.log(add6(1, undefined, 3))
+console.log(add6(1, undefined, 3))
 
 //剩余参数
 function add7(x: number, ...rest: number[]) {
@@ -48,5 +48,5 @@ function add8(...rest: any[]) {
     return rest.join('')
   }
 }
-// console.log(add8(1, 2))
-// console.log(add8('a', 'b', 'c'))
+console.log(add8(1, 2))
+console.log(add8('a', 'b', 'c'))
